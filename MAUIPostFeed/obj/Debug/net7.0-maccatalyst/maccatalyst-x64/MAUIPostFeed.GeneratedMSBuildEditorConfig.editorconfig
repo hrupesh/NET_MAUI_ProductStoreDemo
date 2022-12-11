@@ -1,0 +1,47 @@
+is_global = true
+build_property.TargetFramework = net7.0-maccatalyst
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = false
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = MAUIPostFeed
+build_property.ProjectDir = /Users/rupesh/Projects/MAUIPostFeed/MAUIPostFeed/
+
+[/Users/rupesh/Projects/MAUIPostFeed/MAUIPostFeed/App.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MAUIPostFeed.App.xaml
+build_metadata.AdditionalFiles.TargetPath = App.xaml
+build_metadata.AdditionalFiles.RelativePath = App.xaml
+
+[/Users/rupesh/Projects/MAUIPostFeed/MAUIPostFeed/AppShell.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MAUIPostFeed.AppShell.xaml
+build_metadata.AdditionalFiles.TargetPath = AppShell.xaml
+build_metadata.AdditionalFiles.RelativePath = AppShell.xaml
+
+[/Users/rupesh/Projects/MAUIPostFeed/MAUIPostFeed/Resources/Styles/Colors.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MAUIPostFeed.Resources.Styles.Colors.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources/Styles/Colors.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources/Styles/Colors.xaml
+
+[/Users/rupesh/Projects/MAUIPostFeed/MAUIPostFeed/Resources/Styles/Styles.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MAUIPostFeed.Resources.Styles.Styles.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources/Styles/Styles.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources/Styles/Styles.xaml
+
+[/Users/rupesh/Projects/MAUIPostFeed/MAUIPostFeed/Views/ProductDetails.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MAUIPostFeed.Views.ProductDetails.xaml
+build_metadata.AdditionalFiles.TargetPath = Views/ProductDetails.xaml
+build_metadata.AdditionalFiles.RelativePath = Views/ProductDetails.xaml
+
+[/Users/rupesh/Projects/MAUIPostFeed/MAUIPostFeed/Views/ProductList.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MAUIPostFeed.Views.ProductList.xaml
+build_metadata.AdditionalFiles.TargetPath = Views/ProductList.xaml
+build_metadata.AdditionalFiles.RelativePath = Views/ProductList.xaml

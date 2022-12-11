@@ -1,0 +1,46 @@
+﻿<Properties StartupConfiguration="{024D4833-A36E-4159-A11E-6032126E4C1E}|Default">
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="MAUIPostFeed/Views/ProductList.xaml">
+    <Files>
+      <File FileName="MAUIPostFeed/Views/ProductDetails.xaml.cs" />
+      <File FileName="MAUIPostFeed/App.xaml.cs" />
+      <File FileName="MAUIPostFeed/Views/ProductDetails.xaml" />
+      <File FileName="MAUIPostFeed/Services/IProductsRepository.cs" />
+      <File FileName="MAUIPostFeed/Services/ProductsService.cs" />
+      <File FileName="MAUIPostFeed/Models/AllProducts.cs" />
+      <File FileName="MAUIPostFeed/MauiProgram.cs" />
+      <File FileName="MAUIPostFeed/AppShell.xaml" />
+      <File FileName="MAUIPostFeed/AppShell.xaml.cs" />
+      <File FileName="MAUIPostFeed/App.xaml" />
+      <File FileName="MAUIPostFeed/Models/Products.cs" />
+      <File FileName="MAUIPostFeed/Views/ProductList.xaml.cs" />
+      <File FileName="MAUIPostFeed/Views/ProductList.xaml" Line="4" Column="48" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="MAUIPostFeed" expanded="True">
+            <Node name="MAUIPostFeed" expanded="True">
+              <Node name="Models" expanded="True" />
+              <Node name="Services" expanded="True" />
+              <Node name="Views" expanded="True">
+                <Node name="ProductDetails.xaml" expanded="True" />
+                <Node name="ProductList.xaml" expanded="True" selected="True" />
+              </Node>
+              <Node name="App.xaml" expanded="True" />
+              <Node name="AppShell.xaml" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.MAUIPostFeed PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.7843C3B7-302B-4F8B-94F1-231B98396553" />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.MonoDroid LastDeploySdkVersion="13.1.0.1" />
+  <Xamarin.Addins.Core.Project ActiveDebugTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.7843C3B7-302B-4F8B-94F1-231B98396553" />
+</Properties>

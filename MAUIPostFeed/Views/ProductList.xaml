@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+        x:Class="MAUIPostFeed.Views.ProductList"
+        >
+        <CollectionView x:Name="productsCollection"
+                ItemsSource="{Binding Products}"
+                Margin="10"
+                SelectionMode="Single"
+                SelectionChanged="productsCollection_SelectionChanged"
+                >
+            <CollectionView.ItemsLayout>
+                <LinearItemsLayout Orientation="Vertical" ItemSpacing="20" />
+            </CollectionView.ItemsLayout>
+
+            <CollectionView.ItemTemplate>
+                <DataTemplate>
+                    <VerticalStackLayout>
+                       <Image HeightRequest="180" Aspect="AspectFill" >
+                            <Image.Source>
+                                <UriImageSource
+                                    Uri="{Binding thumbnail}"
+                                    CacheValidity="00:12:00:00"
+                                />
+                            </Image.Source>
+                        </Image>
+                        <HorizontalStackLayout>
+                            <Label Text="{Binding title}" FontSize="Title" FontAttributes="Bold" />
+                            <Label Text="{Binding discountPercentage}" FontSize="Default" Margin="40,4,0,0" FontAttributes="Italic" FontFamily="Open-Sans" />
+                            <Label Text=" % OFF" FontSize="Default" Margin="0,4,0,0" FontAttributes="Italic" FontFamily="Open-Sans"  />
+                        </HorizontalStackLayout>
+                        <Label Text="{Binding description}" MaxLines="2" FontSize="Subtitle" TextColor="Gray"  />
+                    </VerticalStackLayout>
+                </DataTemplate>
+            </CollectionView.ItemTemplate>
+        </CollectionView>
+</ContentPage>
+

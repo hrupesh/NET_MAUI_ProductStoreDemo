@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MAUIPostFeed.Views.ProductDetails"
+             Title="Product Details"
+             >
+    <ScrollView BackgroundColor="#eee"  >
+        <VerticalStackLayout>
+            <CarouselView Loop="False"
+                ItemsSource="{Binding product.images}"
+                VerticalOptions="Start"
+                HeightRequest="300"
+                HorizontalScrollBarVisibility="Never" >
+                <CarouselView.ItemTemplate>
+                    <DataTemplate>
+                            <Image Source="{Binding}"
+                                Aspect="AspectFit"
+                                HeightRequest="300" />
+                    </DataTemplate>
+                </CarouselView.ItemTemplate>
+            </CarouselView>
+            <VerticalStackLayout Margin="24, 10" Spacing="10" >
+                <Label Text="{Binding product.title}" FontSize="Title" FontFamily="OpenSansSemibold" />
+                <Label Text="{Binding product.description}" FontSize="Body" FontFamily="OpenSansRegular" />
+                <Grid ColumnDefinitions="*,*" ColumnSpacing="30" Margin="0, 10" >
+                    <HorizontalStackLayout>
+                        <Label Text="💵  $" FontSize="30" VerticalTextAlignment="Center" FontFamily="OpenSansRegular" />
+                        <Label Text="{Binding product.price}" FontSize="40" FontFamily="OpenSansRegular" />
+                    </HorizontalStackLayout>
+                    <HorizontalStackLayout Grid.Column="1">
+                        <Label Text="⭐️  " FontSize="30" VerticalTextAlignment="Center" FontFamily="OpenSansRegular" />
+                        <Label Text="{Binding product.rating}" FontSize="40" FontFamily="OpenSansRegular" />
+                    </HorizontalStackLayout>
+                </Grid>
+                <HorizontalStackLayout>
+                    <Label Text="Stocks left: " FontSize="20" VerticalTextAlignment="Center" FontFamily="OpenSansRegular" />
+                    <Label Text="{Binding product.stock}" FontSize="30" FontFamily="OpenSansRegular" />
+                </HorizontalStackLayout>
+                <HorizontalStackLayout>
+                    <Label Text="Brand: " FontSize="20" VerticalTextAlignment="Center" FontFamily="OpenSansRegular" />
+                    <Label Text="{Binding product.brand}" FontSize="30" FontFamily="OpenSansRegular" />
+                </HorizontalStackLayout>
+                <HorizontalStackLayout>
+                    <Label Text="Category: " FontSize="20" VerticalTextAlignment="Center" FontFamily="OpenSansRegular" />
+                    <Label Text="{Binding product.category}" TextTransform="Uppercase" FontSize="30" FontFamily="OpenSansRegular" />
+                </HorizontalStackLayout>
+            </VerticalStackLayout>
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>
